@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+   <head>
+     <title>Analytiq Institute </title>
+	 <script>
+	   /*emp={id:101,name:"Vaishali",sal:30000};
+	   document.write("Id="+emp.id+"<br>" +"Name="+emp.name+"<br>"+"Salary="+emp.sal);*/
+	 
+	    /*emp=new Object();
+		emp.id=102;
+		emp.name="Manoj";
+		emp.sal=30000;
+		document.write("Id="+emp.id+"<br>" +"Name="+emp.name+"<br>"+"Salary="+emp.sal);*/
+	 
+	    function emp(id,name,sal)
+		{
+		  this.id=id;
+		  this.name=name;
+		  this.sal=sal;
+		  this.changesal=changesal;
+		  function changesal(newsal)
+		  {
+		      this.sal=newsal;
+		  }
+		  
+		}  
+		
+		e=new emp(104,"Priya","30000");
+	    document.write("Id="+e.id+"<br>" +"Name="+e.name+"<br>"+"Salary="+e.sal+"<br>");
+		
+		e.changesal(45000);
+		
+		document.write("Updated salary"+"<br>");
+		document.write("Id="+e.id+"<br>" +"Name="+e.name+"<br>"+"Salary="+e.sal+"<br>");
+		
+	 
+	    /*e1=new emp(105,"Shina");
+		document.write("Id="+e1.id+"<br>" +"Name="+e1.name)*/
+	 </script>
+   </head>
+   <body>
+   
+   </body>
+</html>   

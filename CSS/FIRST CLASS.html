@@ -1,0 +1,82 @@
+--CSS-- 
+
+1.INLINE CSS or using ID(different method but same work)
+2.INTERNAL CSS or
+3.EXTERNAL CSS or linked
+
+* questions : when is the above type css is used and in which cases ??
+* inline >> internal and external
+* if there are two css files then it takes the second one
+
+
+1.INLINE CSS
+
+
+eg: 
+<p style="color:red;font-size:20px">this is para 1</p>
+<p>this is para2</p>
+<p>this is para3</p>
+
+<ul>
+<li style:"color:blue">Pune</li>
+<li>Mumbai</li>
+</ul>
+
+
+
+2.INTERNAL CSS
+
+eg:
+<head>
+
+   <style>
+         p{
+            color:red;
+            font-size-20px;
+          }
+  
+
+   </style>
+</head>
+
+<body>
+
+<h1>css</h1>
+<p>this is para1</p>
+<p>this is para2</p>
+<h1>html</h1>
+
+</body>
+
+
+3.EXTERNAL CSS
+
+eg: 
+
+p{
+  color:red;
+ }
+ h1{
+    color:red;
+   }
+
+<head>
+	<link href='mystyle.css">
+				//you just have to link this to apply css properties
+</head>
+<body>
+	<p>.......</p>
+	<p>.......</p>
+</body>				
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+<html>
+  <head>
+   <script>
+     //setTimeout('alert("hello")',3000);
+	 
+	  var id;
+	 
+	 function start()
+	 {
+	  id=setInterval('alert("hello")',3000);
+	 }
+	  function stop()
+	  {
+	    clearInterval(id);
+	  }
+    </script>
+  </head>
+  <body>
+    <input type="button" value="starttimer" onclick="start()"/><br>
+	 <input type="button" value="stoptimer" onclick="stop()"/><br>
+  
+  </body>
+
+
+</html>

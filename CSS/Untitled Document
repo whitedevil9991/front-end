@@ -1,0 +1,16 @@
+CSS selectors and types : 
+
+ID i.e must use hash (#) while creating //this is similar to inline css
+#item1 { 
+        }
+
+
+ class i.e <h(class="attribute")> </h>
+.attributeName {
+                 }
+
+
+comma(,) grouping i.e h1,p {
+                             }
+
+

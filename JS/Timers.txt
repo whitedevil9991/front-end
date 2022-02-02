@@ -1,0 +1,22 @@
+
+
+1.setTimeOut():this fires once
+
+   setTimeOut("functionNmae",30000)
+    eg.var timeout=setTimeOut("alert('30 sec')",30000);
+
+2. setInterval():this fires at the given interval time
+
+    eg:  var intervalTimer= self.setInterval("func1()",10000);
+   			//This will fire every 10  seconds
+
+ 	function  func1()
+	{
+          alert("function interval time");
+	}
+
+3.clearTimeOut():stops timeouttimer
+     eg.clearTimeOut(timeout);
+
+4.clearInterval():stops intervaltimer
+	eg.clearInterval(intervalTimer)

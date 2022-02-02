@@ -1,0 +1,30 @@
+<html>
+   <head>
+      <script>
+	     function show()
+		 {
+		    var x=document.getElementById('frm1');
+			//alert(x);
+			//alert(x.length);
+			var text="";
+			for(i=0;i<x.length;i++)
+			{
+			  text+= x.elements[i].value;
+		    }
+			document.getElementById('p1').innerHTML=text;
+	    }
+	  
+	  </script>
+  </head>	
+  <body>
+     
+     <form id="frm1">
+	     fname:<input type="text" id="txt1"/><br>
+		 lname:<input type="text" id="txt2"/><br>
+	 </form>
+	 
+     <p id="p1"></p>
+	 <br><input type="button" value="showall" onclick="show()"/>
+
+   </body>
+</html>   

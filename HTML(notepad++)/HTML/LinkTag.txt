@@ -1,0 +1,37 @@
+Hyperlink:  helps to jump from one document to another
+
+Link tag or anchor tag<a>:   which inserts hyber links in document
+
+Atrribute:   href,title,name,target(_self,_blank,_parent)
+
+
+_blank : is for the link to open in a new tab
+_self :
+_parent : 
+
+
+1.Linking to documents in same folder
+
+   <a href="index.html" target=_self> Welcome page </a>
+
+
+2.Linking to documents in different folder
+  
+  <a href="vaishali/data/index.html"title="firstpage">Welcome page</a>
+
+
+3.Linking to documents on the web
+
+  <a href="http://www.facebook.com">Facebook</a>
+
+
+4.Linking to specific location in document
+
+   <a href="#java">Java</a>
+
+   <p id="java">Introduction to Java</p>
+
+
+5.Inserting Email links:
+
+   <a href="mailto:abc@gmail.com">send feedback</a>

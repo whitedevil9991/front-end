@@ -1,0 +1,16 @@
+<html>
+<!--root element is <html>-->
+<head>
+<!--THE TAGS IN THE HEAD ARE THE INFORMATIOM GOES TO THE WEB SERVER-->
+<!--sub root tag or sub root of html-->
+<meta charaset="UTF-8">
+<meta name="viewport" content="width=device-width,intital-scale=1.0">
+<title>Html Document</title>
+<!--title tag = tab name of the tab you are in-->
+<body>
+
+
+</body>
+</head>
+</html>
+<!-- < = these are called as angular tags (simply tags, they are inbuilt predefined-->

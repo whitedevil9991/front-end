@@ -1,0 +1,111 @@
+There are 3 ways to construct array in JavaScript
+
+By array literal
+By creating instance of array using new keyword
+By using an Array constructor (using new keyword)
+
+
+1) JavaScript array literal
+
+     var arrayname=[value1,value2.....valueN];  
+
+
+     <script>  
+
+           var N=["Komal","Sneha","Ravi","james"];   // var name=[];
+		  		
+
+            for (i=0;i< N.length;i++)
+              {  
+              
+		document.write(N[i] + "<br/>");  
+              }  
+     </script>  
+
+2) JavaScript Array with new keyword
+
+
+       var N=new Array();  
+
+        <script>  
+          
+		var i;  
+		var N = new Array();  
+		N[0] = "Komal";  
+		N[1] = "Sneha";  
+	         N[2] = "Ravi"; 
+   		N[3]="james"; 
+  
+		for (i=0;i<N.length;i++){  
+		document.write(N[i] + "<br>");  
+ 
+	</script> 
+
+3) JavaScript array constructor (new keyword)
+
+
+	<script>  
+		var N=new Array("Komal","Sneha","Ravi");   //var N= new Array(5);
+ 
+		for (i=0;i<N.length;i++)
+     		{
+			document.write(N[i] + "<br>");  
+		}  
+	</script>   
+
+
+Accesing  all array elements in html body
+
+   <script>
+       var course = ["HTML", "ASP.NET", "ORACLE"];
+	document.getElementById("demo").innerHTML = course;
+  </script>
+
+Mulitidimensional Array: 
+
+ var N=[  
+      ["Komal",18,"Delhi"],           // komal ,18,["lajopat ng","chandini"]]  [0][2][1]
+      ["Sneha", 22,"Mumbai"],
+      ["Ravi",25,"Goa"],
+      ["james",24,"Pune"]
+]
+
+ document.write(N[0][2]) // will give output Delhi      
+
+
+Array methods:
+
+1)array.length : Lenght of the array.
+
+2)array.reverse():Reverse of the array.
+
+3)array.pop():Removes last element of the array.
+
+4)array.push():Adds element in the array from end.
+    eg.name.push("john","david");
+
+5)array.shift():Removes the start elements of the array
+
+6)array.unshift():Adds element in the start of array.
+      eg.name.unshift("vidya","guru");
+
+7)concat:Concats two or more array.
+
+    var N1=["sona","mona","tina"];
+    var N2=["leena","meena"];
+    document.write(n1.concat(N2));
+  
+    output:sona mona tina leena meena     
+
+    document.write(N1.concat(name1,"are girls"));
+    
+    output:sona mona tina leena meena are girls
+
+8)slice:extracts elements from array
+
+   var N1=["sona","mona","tina","leena","meena","ravina"];
+  
+   document.write(N1.slice(0,4));//slice(begin,end):it does not include end element.
+
+   output:sona mona tina leena
+

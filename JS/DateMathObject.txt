@@ -1,0 +1,57 @@
+Date Object:
+
+
+ var today=new Date();
+ document.write(today);o/p  current date and time
+
+
+TO print any other date: 
+   
+      var today=new Date("month date year hh:mm:ss")
+      eg.var today=new Date("October 02,1980 11:22:18");
+
+To set date /to change date
+    today.setDate(25);
+
+To set month
+    today.setMonth(0);  //for  jan=0  dec=11
+
+To set year
+    today.setFullYear(2022);
+
+
+
+getDate()		//var ch=today.getFullYear();
+			document.write(ch) o/p only years					
+getMonth()
+getFullYear()
+getHours()
+getMinutes()
+getSeconds()
+getMilliSeconds()
+getDay()//gives numeric value i.e monday=1 sat=6
+
+
+setDate()
+setMonth()
+setFullYear()
+setHours()
+setMinutes()
+setSeconds()
+setMilliSeconds()
+toString()
+
+
+
+Math object:
+
+document.write(Math.PI)
+ 
+var n=36
+var answer=Math.Sqrt(n);//o/p 6
+
+Math.round();
+
+Math.random()//gives random no between 0 and 1sss
+
+

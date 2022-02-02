@@ -1,0 +1,43 @@
+<html>
+   <head>
+     <style>
+	  #div1{
+	    height:200px;
+		width:500px;
+		border:1px solid red;
+		}	 
+	 
+	 </style>
+     <script>
+	 
+	  function changestyle()
+	  {
+	    x=document.getElementById('p1');
+		x.style.color="#ff0000";
+		x.style.backgroundColor="blue";
+		x.style.fontSize="30px";
+	  }
+	  
+	  function divchange1()
+	  {
+	    x=document.getElementById('div1');
+		x.style.backgroundColor="blue";
+	  }
+	  function divchange2()
+	  {
+	    x=document.getElementById('div1');
+		x.style.backgroundColor="yellow";
+	  }
+	  </script>
+     
+   </head>
+   <body>
+      <p id='p1'>This is Dom Lecture</p><br><br>
+	  <input type="button" value="change" onclick="changestyle()"/>
+	  <div id="div1" onmouseenter="divchange1()" onmouseleave="divchange2()">
+	    This is a div element
+      </div>
+   </body>
+
+
+</html>

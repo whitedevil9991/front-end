@@ -1,0 +1,133 @@
+1. Heading tags
+
+  <h1> </h1>
+  <h2> </h2>
+  <h3> </h3>
+  <h4> </h4>
+  <h5>  </h5>
+  <h6> </h6>    
+
+2.Paragraph tag
+
+   <p>  </p>
+   <pre>  </pre>
+
+
+3.Formatting tags
+
+  <strong> bold fonts          </strong>
+
+  <small>  small size fonts    </small>
+
+  <em>     emphazised text     </em>
+
+  <b>      bold text           </b>
+
+  <i>      italic fonts        </i>
+
+  <sup>    prefix a raise to 5 </sup>
+
+  <sub>    suffix like H2O     </sub>
+
+  <mark>   for highligtning    </mark>
+  
+  <br>     next line
+
+
+  <hr>     horizontal line
+
+  <u>      underline           </u>
+
+  <strike> strike line         </strike>
+
+  <abbr>   abbreviation        </abbr>
+
+      eg.<abbr title=water>H2O  </abbr>
+  
+  <center>
+
+  Nested tags:<b><i><u>Hyper Text Markup Language </u></i></b>
+
+
+4.Body tag and attributes
+   <body></body>
+
+      1.alink:defines the color of the hyperlink as the 
+              user clicks them with mouse
+
+      2.link: defines the color in which hyperlink will be 
+              displayed which has not yet been visited.
+      
+      3.vlink:defines the color for the hyperlinks,which
+              have previuosly been visited.
+
+      4.bgcolor:this specifies the background color 
+                  of the web page
+      
+      5.text: defines color for the text of the page.
+
+      6.style:applies css.
+
+     eg.<body bgcolor="blue" text="white">
+           <p> Welcome to Html world</p>
+        </body>
+
+6.<p><hn> tag atrributes: align,style.
+
+      <p align="right"></p>
+      <h1 align="center"></h1>  
+
+7.<hr> tag
+  attributes:
+          1.align
+          2.width:one can specify in pixels or percentage
+          3.noshade:hr line will be in 2d-line with black color
+          4.color
+          5.size:specifies thickness of the line
+          6.style:applies css.
+        
+       eg.<hr align="right" width="60%">
+
+
+8.Font tag
+   <font> sets font characteristics.Default size is 3 and range
+    from 1 To7
+   
+  <font color="red">Html </font>
+  <font size="7px">Html </font>
+  <font face="Times New Roman">HTml</font>
+
+  <font color="red" size="20px" face="Arial">Html</font>
+
+9.Special characters
+   
+         &nbsp;		:non breaking space
+         &copy;		:copyright sign
+         &reg; 		:Registered mark
+         &dbquo;	:double quote
+         &gt;		:greater than sign
+         &lt;		:less than sign
+
+10.Marquee tag
+
+   <marquee> is used to display a scrolling text message 
+             
+             within document
+    atrributes:
+             1.behavior:   type of scrolling. 
+			   values are scroll/alternate/slide
+
+             2.direction:  specifies scrolling direction
+			     left:scrolls text from right to left
+                             right:scrolls text from left to right
+                             up
+                             down
+
+             3.scrollamount:
+
+             4.scrolldelay: 
+
+             5.height width
+   
+             6.bgcolor
+     eg<marquee direction="left" height="50px" width="50px">scroll text</marquee>

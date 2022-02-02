@@ -1,0 +1,14 @@
+
+
+
+
+If the first input is co
+
+<script>
+var b=confirm("do you wish to exit");
+alert("b="+b);
+if(b==true)
+{
+window.open("www.google.com");
+}
+</script>

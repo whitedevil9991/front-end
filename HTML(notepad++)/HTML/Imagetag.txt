@@ -1,0 +1,30 @@
+Image in Html
+ 
+<img> tag
+
+Atrribute:Align,Alt,Border,Height,src,width,hspace,vspace
+
+Align:aligns it to the center or left or right
+
+Border:sets the border
+
+hspace:sets the horizontal space
+
+vspace:sets the vertical space
+
+alt:alt="image not found" the alt is for when there is error in loading of the picture.
+
+src:Defines name and path of the image file.
+
+    eg.<img src="flower.jpg" alt="this is image"/>
+       <img src="c:\vaishali\flower.jpg" alt="this is image"/>
+
+<img src="flower.jpg" alt="this is image" width="50" 
+       height="50" Border="2" align="right">
+
+
+
+use image as links
+
+  <a href="http://www.facebook.com"><img src="\picture\Images\fimg.jpg" height="50" width="50"/></a>
+

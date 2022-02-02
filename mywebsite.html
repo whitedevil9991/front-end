@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <style>
+
+            a.body:hover, a.body:active {color:rgb(219, 179, 93);}
+
+            body, head {
+                background-image: linear-gradient( 240deg,rgb(153, 153, 228),rgb(235, 227, 214),rgb(211, 143, 143));
+            }
+            h1{
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+                color:hsl(5, 51%, 59%);
+            }
+            div1 {
+                border-style: none;
+                text-align: center;
+                animation-name: fonts;
+                animation-duration: 10s;
+
+                }
+                h2 {
+                    border: 2px rgb(0, 0, 0);
+                    border-style: groove;
+                    border-color: black;
+                    padding: 5%;
+                }
+                /*this is for animations*/
+                @keyframes fonts{
+                   0% {background-image: linear-gradient(rgb(130,130,221))}
+                   25% {background-image: linear-gradient(rgb(130,130,221))}
+                   50% {background-image: linear-gradient(rgb(130,130,221))}
+                   100% {background-image: linear-gradient(rgb(130,130,221))}
+                }
+                @media screen and (min-width:480px) {
+                    body{
+                        background-color: beige;
+                    }
+                }
+        </style>
+    </head>
+    <body >
+        <h1>IT Roles👨‍💻</h1>
+        <div1 >
+        <h2><a class="head">DevOps</h2>
+        <h2>Data Analyst</h2>
+        <h2>Data Scientist</h2>
+        <h2>Python</h2>
+        <h2>JavaScript</h2>
+        <h2>Front End Developer</h2>
+        <h2>Back End Developer</h2>
+        </div1>
+
+    </body>
+    </html>

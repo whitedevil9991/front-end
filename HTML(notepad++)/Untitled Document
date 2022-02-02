@@ -1,0 +1,46 @@
+<html>
+    <head>
+       <body>
+            <p>this is iframe</p> 
+            <h1>Analytiq Institute</h1>
+            <a href="" target="">Imagename</a><br><br>
+            <a href="" target="">ImageName</a><br><br>
+
+            <iframe scr="" height="" width="" name=""></iframe>
+
+       </body>
+     </head>
+</html>
+
+
+
+
+i frame =  you can see another document just after the page loads up 
+why use iframe = to open the result in the same window
+
+normal scr shows the link and only upon clicking it shows the document...
+
+<iframe src="" height="" width="" name=""></iframe>
+
+
+
+d-tags
+
+
+<html>
+<body>
+
+<h1>The dl, dd, and dt elements</h1>
+
+<p>These three elements are used to create a description list:</p>
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+
+</body>
+</html>
+
